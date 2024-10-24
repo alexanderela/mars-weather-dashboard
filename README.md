@@ -13,14 +13,18 @@ This project is a simple application to display weather on Mars.
   * Create mockups
   * Fetch and display current Martian weather (sol date, temperature, wind speed, pressure) using NASA's [Mars Weather API](https://api.nasa.gov/)
   * Display data in clean, responsive dashboard layout
+  * Add Material UI components to improve user experience
 
 ### Iteration 1: Interactive 3D Mars Globe
-  * X
-  * Y
+  * Implement 3D interative globe of Mars using React Three Fiber
+  * Allow users to rotate and zoom in on Martian globe with real time weather data displayed at key locations
+  * Display weather stations as markers on globe where users can click to see specific weather details
+  * Use basic shaders to simulate day/night
 
 ### Iteration 2: Historical Weather Data and Customization
-  * X
-  * Y
+  * Add ability to fetch historical Martian weather data, such as from past week or month
+  * Implement graph using Chart.js to visualize temperature, wind speed, and pressure trends over time
+  * Allow users to toggle between viewing weather data on Martian globe or in chart
 
 ### Extensions:
   * Create custom backend API using Node.js and Express to store user credentials and custom weather alert preferences for users
